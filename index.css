@@ -1,0 +1,19 @@
+.top-nav-item {
+    display: inline;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.top-nav-item:hover  {
+    background-color: green;
+    color: white;
+    
+}
+
+.arrow-down::after{
+    content: "\0020\2193";
+}
+
+.arrow-up::after{
+    content: "\0020\2191";
+}
